@@ -1,6 +1,6 @@
 # Game Development Final Project
 
-## Meeting Minutes (accessible via bison email):
+## Meeting Minutes:
 https://docs.google.com/document/d/1QekhMSTy6Pz9g_gSK4FYyHnuOj7aJYdjck2Hv8T_fJM/edit?usp=sharing
 
 ## Design Doc:
