@@ -1,0 +1,3 @@
+[submodule "FinalProject/Content/Characters"]
+	path = FinalProject/Content/Characters
+	url = https://github.com/Azeezah/BananaBoxCharacters.git
