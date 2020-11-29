@@ -40,7 +40,7 @@ cd FinalProject/Content/Characters    # Or the folder of whichever submodule you
 git submodule init
 git config alias.update '!git pull && git submodule update'
 ```
-Now you can use `git update` instead of `git pull`.  This will download code for all initialized submodules along with the main repository.
+Now you can use `git update` instead of `git pull`.  This will download code for all **initialized** submodules along with the main repository.
 
 ### To push code:
 Use `git push` the way you normally would.
