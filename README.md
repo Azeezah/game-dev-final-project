@@ -12,7 +12,7 @@ Aayush Gupta
 <br>Bradley Aboua
 <br>Nikesh Subedi
 
-## How to pull code and push changes:
+## How to pull, push and commit changes:
 This project is large and so some parts are broken off into [submodules](https://gist.github.com/gitaarik/8735255).  The project is designed to run even if you don't have space to download all submodules.
 
 ### Current Submodules:
@@ -46,3 +46,10 @@ Now you can use `git update` instead of `git pull`.  This will download code for
 Use `git push` the way you normally would.
  - Running `git push` inside the submodule's folder will push code to the corresponding repository.
  - Otherwise, it'll push to this repo as usual.
+
+### To commit code:
+ - If you're **not editing a submodule** `git commit` works as it normally does.
+ - If you do edit a submodule, you have to commit the change **twice**: commit to the submodule and then to the main repository.  When you commit to the main repository, you're telling it to point to the latest version of the submodule.
+ - To commit to a submodule, run `git commit` inside the subfolder.
+
+
