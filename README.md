@@ -18,14 +18,12 @@ This project is large and so some parts are broken off into [submodules](https:/
 ### Current Submodules:
  - FinalProject/Content/Characters (https://github.com/Azeezah/BananaBoxCharacters)
 
-Use the following commands to pull and push code.
-
 ### To pull everything:
 ```
-git config alias.update '!git pull && git submodule update --init'
-git update
+git pull && git submodule update --init
 ```
-Now you can use `git update` instead of `git pull`.  This will download code for all of the submodules along with the main repository.
+This will download code for all of the submodules along with the main repository.
+Now you can use `git pull && git submodule update` instead of `git pull`.  This will download code for all submodules along with the main repository.
 
 ### To pull a smaller version of the project (with no submodules):
 ```
@@ -38,9 +36,9 @@ git pull
 
 cd FinalProject/Content/Characters    # Or the folder of whichever submodule you'd like to pull.
 git submodule init
-git config alias.update '!git pull && git submodule update'
+git pull && git submodule update
 ```
-Now you can use `git update` instead of `git pull`.  This will download code for all **initialized** submodules along with the main repository.
+Now you can use `git pull && git submodule update` instead of `git pull`.  This will download code for all **initialized** submodules along with the main repository.
 
 ### To push code:
 Use `git push` the way you normally would.
@@ -51,5 +49,3 @@ Use `git push` the way you normally would.
  - If you're **not editing a submodule** `git commit` works as it normally does.
  - If you do edit a submodule, you have to commit the change **twice**: commit to the submodule and then to the main repository.  When you commit to the main repository, you're telling it to point to the latest version of the submodule.
  - To commit to a submodule, run `git commit` inside the subfolder.
-
-
