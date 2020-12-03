@@ -8,7 +8,7 @@ https://docs.google.com/document/d/1QekhMSTy6Pz9g_gSK4FYyHnuOj7aJYdjck2Hv8T_fJM/
 
 ## Team Members:
 Aayush Gupta
-<br>Azeezah Muhammad
+<br>Azeezah Muhammad (who accidently pushed a couple commits with nazyia's login...)
 <br>Bradley Aboua
 <br>Nikesh Subedi
 
