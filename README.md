@@ -17,6 +17,7 @@ This project is large and so some parts are broken off into [submodules](https:/
 
 ### Current Submodules:
  - FinalProject/Content/Characters (https://github.com/Azeezah/BananaBoxCharacters)
+ - FinalProject/Content/BlindCat_Minigame (https://github.com/cinnamonbrad/BlindCat_Minigame)
 
 ### To pull everything:
 ```
@@ -49,3 +50,10 @@ Use `git push` the way you normally would.
  - If you're **not editing a submodule** `git commit` works as it normally does.
  - If you do edit a submodule, you have to commit the change **twice**: commit to the submodule and then to the main repository.  When you commit to the main repository, you're telling it to point to the latest version of the submodule.
  - To commit to a submodule, run `git commit` inside the subfolder.
+ 
+### To add another submodule:
+Use the form `git submodule add <git link> <path>`, for example:
+```
+git submodule add https://github.com/cinnamonbrad/BlindCat_Minigame.git FinalProject/Content/BlindCat_Minigame
+```
+
