@@ -1,3 +1,6 @@
 [submodule "FinalProject/Content/Characters"]
 	path = FinalProject/Content/Characters
 	url = https://github.com/Azeezah/BananaBoxCharacters.git
+[submodule "FinalProject/Content/BlindCat_Minigame"]
+	path = FinalProject/Content/BlindCat_Minigame
+	url = https://github.com/cinnamonbrad/BlindCat_Minigame.git
